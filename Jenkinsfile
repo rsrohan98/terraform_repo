@@ -5,9 +5,9 @@ pipeline{
             }
     stages{
         stage('Build'){
-		options{
+		/*options{
 		skipDefaultCheckout()
-		}
+		}*/
             
             steps{
                 echo 'Hello World'
